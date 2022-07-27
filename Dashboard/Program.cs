@@ -27,7 +27,7 @@ builder.Host.UseOrleans(siloBuilder =>
                     : true);
 });
 
-// uncomment this if you dont mind hosting grains in the dashboard
+// uncomment this if you dont mind hosting grains in the dashboard.
 builder.Services.DontHostGrainsHere();
 
 var app = builder.Build();
@@ -35,3 +35,6 @@ var app = builder.Build();
 app.MapGet("/", () => Results.Ok("Dashboard"));
 
 app.Run();
+
+
+
