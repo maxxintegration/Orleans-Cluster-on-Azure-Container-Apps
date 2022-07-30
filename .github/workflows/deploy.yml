@@ -5,7 +5,7 @@ on: push
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: orleansonaca
+  RESOURCE_GROUP_NAME: orleansonaca1
 
   # specify your preferred region
   REGION: eastus
